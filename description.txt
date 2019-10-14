@@ -7,7 +7,7 @@ This program uses the python code .
 We use a Output port component of a router architecture which will receive the packets from switch fabric and transmit packets on ports  number  depending on the last 2 digits of the lowest usn of the members in the group i.e  [57] when the msg is initialized and the output port numbers are generated using 40000+ 100*N+X formula using n=3 in the loop resulting in 40057,40157,40257.
 This maintains a  equal size separate buffer for each input port.
 The program is invoked by
-./InputPort <N> <P> <B> <PS> <T>
+./InputPort <N> <P> <B> <PO> <T>
 where  N-number of output port lines
             P-base value of output socket port number
 	 Ex-40000
