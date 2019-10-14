@@ -28,4 +28,4 @@ DIFFICULTY FACED BY THE PROGRAM:
 	
 CONTRIBUTION BY THE TEAM MEMBERS:
 1)Praveen(1KS17CS057)-program code
-2)Praveen(1KS17CS058),Tejas.CS(1KS17CS092)-logic of the code by debbuging.
+2)Praveen(1KS17CS058),Tejas.CS(1KS17CS092)-logic of the code and debbuging.
