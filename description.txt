@@ -1,0 +1,28 @@
+
+Program-8
+
+DESCRIPTION OF THE PROGRAM:
+
+This program uses the python code .
+We use a Output port component of a router architecture which will receive the packets from switch fabric and transmit packets on ports  number  depending on the last 2 digits of the lowest usn of the members in the group i.e  [57] when the msg is initialized and the output port numbers are generated using 40000+ 100*N+X formula using n=3 in the loop resulting in 40057,40157,40257.
+This maintains a  equal size separate buffer for each input port.
+The program is invoked by
+./InputPort <N> <P> <B> <PS> <T>
+where  N-number of output port lines
+            P-base value of output socket port number
+	 Ex-40000
+            B-buffer size for each output port
+            PO-UDP port number on which it will receive packets from switch fabric
+            T-Transmit rate of packets on each output port
+
+This program can be runned in netcat(nc) or using Python.
+
+LINK USED TO UNDERSTAND THE CONCEPT:
+https://www.sciencedirect.com/topics/computer-science/router-architecture
+https://www.sdxcentral.com/data-center/what-is-networking-switch-fabric/
+https://www.geeksforgeeks.org/multithreading-python-set-1/
+
+DIFFICULTY FACED BY THE PROGRAM:
+1)socket programming was difficult.And we first tryed using the java program but it didnt work well,so we went on working the code using pyton.
+2)The threading concept was difficult but the link described above helped us in completing the program. 
+				
